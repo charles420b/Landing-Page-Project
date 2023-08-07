@@ -1,0 +1,88 @@
+/* Landing Page Stylesheet */
+
+/* section 1 layout */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 31rem;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 550;
+    padding-right: 1rem;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    padding-right: 3rem;
+    list-style-type: none;
+}
+
+.upper-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    max-width: 32rem;
+    padding-right: 10rem;
+}
+
+.picture {
+    display: flex;
+    height: 300px;
+    width: 500px;
+}
+
+.main-title {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    max-width: auto;
+    flex-wrap: wrap;
+}
+
+.subtext {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+button {
+    border-radius: 7px;
+    border-style: none;
+    background-color: #3883f6;
+    color: white;
+    font-weight: 900;
+    padding: 7px 30px;
+    font-size: 15px;
+    margin: 8px 2px;
+}
+/* section 1 style/colors */
+
+.header,
+.upper-section {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
