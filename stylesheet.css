@@ -27,7 +27,7 @@ ul {
     list-style-type: none;
 }
 
-.upper-section {
+.section1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,7 +77,7 @@ button {
 /* section 1 style/colors */
 
 .header,
-.upper-section {
+.section1 {
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -86,3 +86,43 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
+
+/* section 2 layout */
+
+.section2-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    padding: 10px;
+}
+
+.square-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    /* creates gap between square-info */
+    gap: 52px;
+    padding-bottom: 90px;
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.square-info {
+    display: flex;
+    /* wraps square and text (distorts square when removed. find fix.) */
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    /* apparently does nothing. find out why.
+    flex-shrink: 0; */
+    /* sets container width of square-info and square-text */
+    max-width: 180px;
+}
+
+
