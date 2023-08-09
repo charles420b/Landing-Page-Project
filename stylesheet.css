@@ -149,3 +149,58 @@ a {
     font-weight: 600;
 }
 
+/* section 4 css */
+
+.call-to-action {
+    display: flex;
+    /* centers the rectangle */
+    justify-content: center;
+    margin: 120px;
+    color: #f9faf8;
+}
+
+.rectangle {
+    width: 60rem;
+    height: 7rem;
+    border-radius: 8px;
+    background-color: #3882f6;
+    /* centers text and buttons inside the rectangle */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    /* height: 20px */
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    max-height: fit-content;    
+}
+
+div.sign-up2 {
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 5px 20px;
+}
+
+div.sign-up2:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #3882f6;
+}
+
+.rectangle-top-text {
+    font-weight: 900;
+}
+
+.rectangle-subtext {
+    display: flex;
+    flex-wrap: wrap;
+}
