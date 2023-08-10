@@ -5,3 +5,6 @@ A reiteration of a previous Landing Page Project to document the project properl
 (as the previous project was not)
 
 This project shows that the author is capable of coding in HTML and CSS to express his competency, in an albeit elementary manner.
+
+Live View of said Site:
+https://charles420b.github.io/Landing-Page-Project/
