@@ -11,13 +11,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 31rem;
+    gap: 43rem;
 }
 
 .header-logo {
     font-size: 24px;
     font-weight: 550;
-    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 ul {
@@ -164,24 +165,33 @@ a {
     height: 7rem;
     border-radius: 8px;
     background-color: #3882f6;
-    /* centers text and buttons inside the rectangle */
+    /* centers and puts space between 
+    text and buttons inside the rectangle */
     display: flex;
     justify-content: space-evenly;
+    /* gap: 10rem; */
     align-items: center;
 }
 
-.left-side {
+.left-side,
+p {
     display: flex;
     align-items: center;
-    width: 500px;
-    /* height: 20px */
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0;
 }
 
-.right-side {
+/* .right-side {
     display: flex;
     align-items: center;
     max-width: fit-content;
     max-height: fit-content;    
+} */
+
+
+.rectangle-top-text {
+    font-weight: 900;
 }
 
 div.sign-up2 {
@@ -196,11 +206,12 @@ div.sign-up2:hover {
     border: 2px solid #3882f6;
 }
 
-.rectangle-top-text {
-    font-weight: 900;
-}
+/* footer */
 
-.rectangle-subtext {
+.footer-text {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    background-color: #1f2937;
+    padding: 2rem;
 }
