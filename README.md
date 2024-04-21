@@ -1,5 +1,5 @@
 # Landing-Page-Project
-Odin Proejct Landing Page... Project
+Odin Project Landing Page... Project
 
 A reiteration of a previous Landing Page Project to document the project properly with Git.
 (as the previous project was not)
